@@ -166,7 +166,7 @@ class Patient(object):
 #
 def simulationWithoutDrug(numViruses, maxPop, maxBirthProb, clearProb,
                           numTrials):
-    """
+    """      
     Run the simulation and plot the graph for problem 3 (no drugs are used,
     viruses do not have any drug resistance).
     For each of numTrials trial, instantiates a patient, runs a simulation
